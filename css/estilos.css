@@ -1,0 +1,300 @@
+        @import url ('https://fonts.googleapis.com/css2? family = Dancing + Script: wght @ 700 & display = swap'); 
+        @import url ('https://fonts.googleapis.com/css2? family = Amiri: wght @ 700 & display = swap');
+        
+
+        
+
+            
+            *{
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+                text-decoration: none
+                flex-wrap:wrap;
+            }
+
+            header{
+                margin-right: auto;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 80px;
+                background-color: #fff;
+                box-shadow: 0 4px 25px -22px black;
+                z-index: 2;
+            }
+
+            .header-content{
+                max-width: 1200px;
+                margin: auto;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .logo{
+                height: 80px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+            }
+
+            .logo h1 b{
+                color: #E7D8B4
+            }
+
+
+            .menu{
+                height: 80px;
+                font-size: 15px;
+            }
+
+
+            .menu nav{
+                height: 100%;
+                display: flex;
+                font-size: 15px;
+            }
+
+
+            .menu nav ul{
+                height: 100%;
+                display: flex;
+                list-style: none;
+                font-size: 15px;
+            }
+
+
+            .menu nav ul li{
+                height: 100%
+                margin: 25% 25px;
+                justify-content: center;
+                display: center;
+                flex-direction: column;
+                align-items: center;
+                position: relative;
+                font-size: 15px;
+                color-font: #000000;
+            }
+                
+
+
+            .menu nav ul li- break-before{
+                content: ''
+                width: 140%;
+                height: 4px;
+                background-color: #E7D8B4;
+                display: unset;
+                position: absolute;
+                top: 0;
+                left: 0;
+                font-size: 15px;
+                color-font: #000000;
+
+
+            }
+
+            .menu li a{
+                background-color: #fff;
+                color-font: #000000;
+                text-decoration: none;
+                padding: 20px 20px;
+                display: block;
+                font-size: 15px;
+                color-font: #000000;
+            }
+
+            .menu nav > li {
+                float: left;
+                font-size: 15px;
+                color-font: #000000;
+            }
+
+
+            .menu nav ul li a:hover{
+                color: #000000;
+                color-font: #000000;
+                background-color: #E7D8B4;
+                transition: color 300ms;
+                font-size: 15px;
+            }
+
+
+            .menu nav li ul{
+                display: none;
+                position: absolute;
+                min-width: 100px;
+                font-size: 15px;
+            }
+
+            .menu nav li:hover> ul{
+                display: block;
+
+            }
+
+            /*Portada*/
+
+
+            .container-cover{
+                width: 100%;
+                height: 500px;
+                position: relative;
+                margin-top: 80px;
+                background-image: url(../img/img3.jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                flex-wrap: wrap;
+            }
+
+
+            .container-cover:before{
+                content: ''
+                width:100%;
+                height:100%;
+                background-color: #FBEEE6;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+
+
+            .container-cover-info{
+                max-width: 500px;
+                height: 500px;
+                margin: auto;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                z-index: 1;
+            }
+
+
+            .container-cover-info h1{
+                font-size: 125px;
+                font-weight: 500px;
+                color: #fff;
+                margin-bottom: 10px;
+                font-family: 'Amiri', serif;
+
+            }
+
+
+            .container-cover-info h2{
+                color: #BF8E00;
+                font-size:50px;
+                font-weight: 300px;
+                font-family: 'Dancing Script', cursiva;
+            }
+
+
+            /*Contenedor - contenido del articulo*/
+
+            .container-content {
+                width: 1200px;
+                margin: auto;
+                margin-top: 45px;
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+
+            article {
+                width: 100%;
+                padding: 30px;
+                padding-bottom: 50px;
+                box-shadow: -30px 0 -30px  black;
+                position: relative;
+                border-radius: 50px;
+                overflow: hidden;
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+                flex-wrap: wrap;
+
+
+            }
+
+            article:before{
+                content:''
+                width:100%;
+                height: 6px;
+                position: absolute;
+                top: 0px;
+                left: 0px;
+                background: #FBEEE6;
+                display: flex;
+
+
+
+            }
+
+            article h2{
+                margin-top: 20px;
+                font-weight: 500;
+                font-size:40px;
+            }
+
+
+             article h3{
+                margin-top: 20px;
+                font-weight: 10;
+                font-size:30px;
+            }
+
+
+           article p{
+            margin-top: 30px;
+            font-size: 20px;
+            color: #3c3c3c;
+
+           }
+
+
+
+           article img{
+            width: 100%;
+            margin-top: 20px;
+           }
+
+
+
+
+            *{
+            list-style: none;
+           }
+
+           .menu nav ul li{
+            list-style: none;
+           }
+
+
+          .container-content {
+            font-family: 'Levenim MT', serif;
+            
+          }
+
+          .container-content h2{
+            font-family: 'Copperplate Gothic Light', serif;
+            font-size: 50px;
+
+          }
+
+          h3{
+            font-family: 'Copperplate Gothic Light', serif;
+            font-size: 35px;
+          }
+
+          p{
+            font-family: 'Levenim MT', serif;
+            font-size: 25px;
+          }
+
+          .home{
+            display: flex;
+            flex-wrap: wrap;
+          }
